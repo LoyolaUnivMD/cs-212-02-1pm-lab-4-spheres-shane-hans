@@ -3,7 +3,7 @@
 * Course:  CS 212
 * Due Date: February 18, 2024
 * Lab Assignment: 4
-* Problem Statement:
+* Problem Statement: Create a new class named Sphere and use it to create sphere objects and to detect sphere collisions.
 * Data In: none
 * Data Out: Surface area and volue
 * Credits: [Is your code based on an example in the book, in class, or something else?
