@@ -10,3 +10,6 @@
    1. Calculate the distance from the user input point to the center of the current sphere
    2. If the calculated distance is less than the current minimum distance, update minDistance and closetSphere 
 10. Print a message indicating which sphere the user input point is closet to
+11. Check for collisions between spheres (Sun, Earth, planetX)
+12. If any collisions are detected, print a message indicating the collision
+13. If no collisions are detected, print a message indicating no collision
