@@ -1,11 +1,11 @@
 
-/** Programmers:  [your names here]
+/** Programmers:  [Shane and Hans]
 * Course:  CS 212
-* Due Date:
-* Lab Assignment:
+* Due Date: February 18, 2024
+* Lab Assignment: 4
 * Problem Statement:
-* Data In:
-* Data Out:
+* Data In: none
+* Data Out: Surface area and volue
 * Credits: [Is your code based on an example in the book, in class, or something else?
 *            Reminder: you should never take code from the Internet or another person
 */
