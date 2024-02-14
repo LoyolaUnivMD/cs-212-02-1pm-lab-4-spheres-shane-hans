@@ -1,1 +1,21 @@
-Test Cases go here.
+Test Case #1:
+User Input: 10.0 10.0 10.0
+Expected output:
+- Volume and surface area for sphere (sun, Earth, PlanetX).
+- The point is closest to the Earth's Sphere
+- No collision was detected between the spheres
+
+Test Case #2:
+User Input: 30.0 40.0 70.0
+Expected output:
+- Volume and surface area for sphere (sun, Earth, PlanetX).
+- The point is closest to the PlantX's Sphere
+- No collision was detected between the spheres
+
+Test Case #3:
+User Input: -5.0 0.0 0.0
+Expected output: 
+- Volume and surface area for sphere (sun, Earth, PlanetX).
+- The point is closest to the Sun's sphere
+- Collision was detected between the spheres
+
