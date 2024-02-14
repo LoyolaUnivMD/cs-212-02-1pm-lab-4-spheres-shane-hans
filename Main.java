@@ -1,11 +1,11 @@
-/** Programmers:  [your names here]
+/** Programmers:  Shane and Hans
 * Course:  CS 212
-* Due Date:
-* Lab Assignment:
-* Problem Statement:
-* Data In:
-* Data Out:
-* Credits: [Is your code based on an example in the book, in class, or something else?
+* Due Date: 2/18
+* Lab Assignment: 4
+* Problem Statement: Detect sphere collisions
+* Data In: 3d coordinate
+* Data Out: Surface areas and volumes of each planet, collisions between spheres, closest point to user location
+* Credits: n/a [Is your code based on an example in the book, in class, or something else?
 *            Reminder: you should never take code from the Internet or another person
 */
 

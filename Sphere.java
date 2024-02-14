@@ -1,16 +1,3 @@
-
-/** Programmers:  [your names here]
-* Course:  CS 212
-* Due Date:
-* Lab Assignment:
-* Problem Statement:
-* Data In:
-* Data Out:
-* Credits: [Is your code based on an example in the book, in class, or something else?
-*            Reminder: you should never take code from the Internet or another person
-*/
-
-
 class Sphere {
     public String name;
     public double radius, x, y, z;
@@ -47,10 +34,5 @@ class Sphere {
     // Collision method
     public boolean collision(double radius_2, double x_2, double y_2, double z_2){
         return distance(x_2, y_2, z_2) < (radius + radius_2);
-    }
-    public static void main(String[] args) {
-       System.out.println("Spheres Go Here");
-
-
     }
 }
