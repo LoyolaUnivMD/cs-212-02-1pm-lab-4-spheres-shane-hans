@@ -1,0 +1,12 @@
+﻿1. Define a sphere class with private instance variables for radius and center coordinates (x,y,z).
+2. Implement a default constructor setting default values for radius and center coordinates
+3. Implement a parameterized constructor to set specific values for radius and center coordinates
+4. Include methods to calculate surface area, volume, distance from the center to an arbitrary point, and collision detection
+5. Create instances of the sphere class for the sun, earth, and planetX, with specific coordinates and radii
+6. Print the volume and surface area of each sphere
+7. Use a scanner to obtain user input for a point in 3D space (x, y, z,).
+8. Initialize variables (minDistance and closestSphere) to track the closet sphere 
+9. Iterate through each sphere(sun, earth, planetX)
+   1. Calculate the distance from the user input point to the center of the current sphere
+   2. If the calculated distance is less than the current minimum distance, update minDistance and closetSphere 
+10. Print a message indicating which sphere the user input point is closet to
