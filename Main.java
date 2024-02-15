@@ -12,8 +12,17 @@
 import java.util.Scanner;
 
 class Main {
+    public static double checkDouble(Scanner input, String prompt) {
+        System.out.println(prompt);
+        while (!input.hasNextDouble()) {
+            System.out.println("Enter a double value: ");
+            input.next();
+        }
+        return input.nextDouble();
+    }
     public static void main(String[] args) {
        System.out.println("Music of the Spheres\n");
+
 
        // Initialize three spheres
         Sphere sun = new Sphere("sun", 43.26, 0.0, 0.0, 0.0);
@@ -38,26 +47,11 @@ class Main {
 
         // Get user input for a 3D location
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter an x coordinate: ");
-        while (!input.hasNextDouble()) {
-            System.out.println("Enter a double value: ");
-            input.next();
-        }
-        double loc_x = input.nextDouble();
 
-        System.out.println("Enter a y coordinate: ");
-        while (!input.hasNextDouble()) {
-            System.out.println("Enter a double value: ");
-            input.next();
-        }
-        double loc_y = input.nextDouble();
+        double loc_x = checkDouble(input, "Enter an x coordinate: ");
+        double loc_y = checkDouble(input, "Enter a y coordinate: ");
+        double loc_z = checkDouble(input, "Enter a z coordinate: ");
 
-        System.out.println("Enter a z coordinate: ");
-        while (!input.hasNextDouble()) {
-            System.out.println("Enter a double value: ");
-            input.next();
-        }
-        double loc_z = input.nextDouble();
 
         // Check which sphere the user's location is closest to
         double distanceToSun = sun.distance(loc_x, loc_y, loc_z);
